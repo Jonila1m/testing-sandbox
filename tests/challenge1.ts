@@ -1,7 +1,3 @@
-// export const addTwoNumbers = (a: number, b: number): number => {
-//   return a + b;
-// };
-
 export const fizzBuzz = (n: number): (number | string)[] => {
   const result: (number | string)[] = [];
   for (let i = 1; i <= n; i++) {
@@ -15,5 +11,6 @@ export const fizzBuzz = (n: number): (number | string)[] => {
       result.push(i);
     }
   }
+
   return result;
 };

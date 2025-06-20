@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { fizzBuzz } from "./challenge1";
+import { fizzBuzz } from "./fizzBuzz";
 
 // Return an array containing the numbers from 1 to N, where N is the parametered value.
 

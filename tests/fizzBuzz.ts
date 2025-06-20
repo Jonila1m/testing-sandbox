@@ -11,6 +11,5 @@ export const fizzBuzz = (n: number): (number | string)[] => {
       result.push(i);
     }
   }
-
   return result;
 };
